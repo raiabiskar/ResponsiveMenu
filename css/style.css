@@ -1,0 +1,32 @@
+ul li{
+    float: left;
+    padding: 20px;
+    list-style: none;
+    display: inline-block;
+    /* text-decoration: none; */
+}
+ul li:hover{
+    background: #f64c72;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.toggle{
+    width: 100%;
+    background: #2f2fa2;
+    font-size: 3rem;
+    /* float: right; */
+    box-sizing: border-box;
+    color: #fff;
+    display: none;
+}
+@media screen and (max-width: 768px)
+{
+        .toggle{
+            display: block;
+            /* position: absolute; */
+        }
+}
